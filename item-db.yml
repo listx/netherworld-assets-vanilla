@@ -1,0 +1,18 @@
+-
+    class: armor
+    name: "helmet"
+    stats-mods:
+        strength: 1
+    bstats-mods:
+        defense: 5
+-
+    class: weapon
+    name: "sword"
+    btats-mods:
+        attack: 20
+
+# CLASS TYPE NAME MODIFIERS
+#magical weapon "sword" {attack: 20}
+#rare armor "breastplate" {defense: 60}
+#normal potion "elixir" {health: 50}
+#magical scroll "fireball" {health: -50}

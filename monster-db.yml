@@ -1,0 +1,6 @@
+-
+    class: fighter
+    name: "rat-king"
+    stats:
+        health: 30
+    loot-bonus: 3
