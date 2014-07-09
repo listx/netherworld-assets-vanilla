@@ -6,15 +6,15 @@
      .....abcdefghijklmnop
      ......abcdefghijklmnop
      .......abcdefghijklmnop
-     ........abcdefghijklmnop
-    .........abcdefghijklmnop
-       ..........abcdefghijklmnop
-      ...........abcdefghijklmnop
-    ............abcdefghijklmnop
+     ........a    fghijklmnop
+    ........       ghijklmnop
+       .....       cdefghijklmnop
+      ........    bcdefghijklmnop
+    ...........  bcdefghijklmnop
          .............abcdefghijklmnop
             ..............abcdefghijklmnop
            ...............abcdefghijklmnop
 .............................
 .............................
-  .............................
-        .............................
+  ..............  .............
+        ........ ....................
