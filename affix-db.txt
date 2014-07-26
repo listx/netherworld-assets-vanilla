@@ -1,0 +1,63 @@
+# affix [affix-type] "name-string" [stat value...]
+# So each affix basically has a list of (stat, bonus-range) pairs
+
+affix adj "Icy" damage-cold 10 14
+affix adj "Fiery" damage-fire 10 14
+affix adj "Bronze" damage-cold 20 30 resist-cold 8p # resist +8 percent
+affix adj "Copper" damage-cold 20 30 resist-cold 8p
+affix adj "Steel" damage-cold 20 30 resist-cold 8p
+affix adj "Silver" damage-cold 20 30 resist-cold 8p
+affix adj "Gold" damage-cold 20 30 resist-cold 8p
+affix adj "Platinum" damage-cold 20 30 resist-cold 8p
+affix noun "Vileness" damage-cold 20 30 resist-cold 8p
+affix noun "Death" damage-cold 20 30 resist-cold 8p
+affix noun "Alacrity" damage-cold 20 30 resist-cold 8p
+affix noun "Thorns" damage-cold 20 30 resist-cold 8p
+affix noun-proper "Lost" damage-cold 20 30 resist-cold 8p
+affix noun-proper "Forsaken" damage-cold 20 30 resist-cold 8p
+affix noun-proper "Bear" damage-cold 20 30 resist-cold 8p
+affix noun-proper "Sentinel" damage-cold 20 30 resist-cold 8p
+affix noun-proper "Guardian" damage-cold 20 30 resist-cold 8p
+affix persona "Killer" health 20 30 resist-all 10 # same as resist-all 10 10 (no variance)
+affix persona "Conqueror" health 20 30 resist-all 10
+affix persona "Slayer" health 20 30 resist-all 10
+affix persona "Trickster" health 20 30 resist-all 10
+affix persona "Wanderer" health 20 30 resist-all 10
+affix persona "Dreamer" health 20 30 resist-all 10
+affix persona "Assassin" health 20 30 resist-all 10
+affix persona "Witch-Hunter" health 20 30 resist-all 10
+
+# Set items
+affix name "Ectheow" health 20 30 resist-all 10 # same as resist-all 10 10 (no variance)
+# Paradise Lost: THE FAITHFUL ANGELS
+affix name "Abdiel" health 20 30
+affix name "Gabriel" health 20 30
+affix name "Ithuriel" health 20 30
+affix name "Michael" health 20 30
+affix name "Raphael" health 20 30
+affix name "Urania" health 20 30
+affix name "Uriel" health 20 30
+affix name "Uzziel" health 20 30
+affix name "Zephon" health 20 30
+affix name "Zophiel" health 20 30
+# Paradise Lost: THE FALLEN ANGELS
+affix name "Adramelec" health 20 30
+affix name "Ariel" health 20 30
+affix name "Arioc" health 20 30
+affix name "Ashtaroth" health 20 30
+affix name "Asmadai" health 20 30
+affix name "Astoreth" health 20 30
+affix name "Azazel" health 20 30
+affix name "Baalim" health 20 30
+affix name "Beelzebub" health 20 30
+affix name "Belial" health 20 30
+affix name "Chemos" health 20 30
+affix name "Dagon" health 20 30
+affix name "Lucifer" health 20 30
+affix name "Mammon" health 20 30
+affix name "Moloch" health 20 30
+affix name "Mulciber" health 20 30
+affix name "Nisroch" health 20 30
+affix name "Ramiel" health 20 30
+affix name "Rimmon" health 20 30
+affix name "Thammuz" health 20 30

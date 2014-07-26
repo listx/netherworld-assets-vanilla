@@ -1,0 +1,3 @@
+map "map"
+affix-db "affix-db.txt"
+monster-db "monster-db.yml"
