@@ -1,3 +1,9 @@
+# Map is ASCII art, for now.
 map "map"
+
+# Master list of all affixes fed into NW's item generation engine.
 affix-db "affix-db.txt"
+
+# Monster database; the idea is to have templates for monster types, and then
+# have the game vary the kind of monsters within each template.
 monster-db "monster-db.yml"
